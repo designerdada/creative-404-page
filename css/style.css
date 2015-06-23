@@ -82,7 +82,7 @@ input[type="text"] {
   text-align: center;
 }
 .dd-bar ul {
-  padding: 0 5%;
+  padding: 0 4%;
 }
 .dd-bar ul li {
   display: inline-block;
@@ -95,3 +95,19 @@ input[type="text"] {
 .dd-bar ul li a:hover {
   opacity: 1;
 }
+
+@media only screen and (max-width: 480px), only screen and (max-width: 480px) {
+  input[type="text"] {
+      width: 50%;
+      padding: 10px;
+  }
+
+  .container a.btn {
+    padding: 10px 20px;
+  }
+
+  .container span {
+    display: block;
+    margin: 10px 0;
+  }
+  }
